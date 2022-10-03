@@ -8,7 +8,7 @@ html {
 }
 body {
     min-width: 32rem;
-    background: linear-gradient(#e5d626, #c4c7137d);
+    background: linear-gradient(#4cbdb4a1, #ffc0cb);
 
 }
 header {
@@ -16,17 +16,22 @@ header {
     grid-template-columns: 1fr 1fr;
     min-height: 20rem;
     min-width: 32rem;
+    font-family: 'Great Vibes', cursive;
 }
 .nav-left-section {
     min-width: 16rem;
     place-self: center;
 }
 section h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
+    color: darkgoldenrod;
+    text-align: center;
 }
 section p {
     font-size: 2rem;
-    text-align: justify;
+    margin-top: -1rem;
+    text-align: center;
+    color: darkgoldenrod;
 }
 .nav-right-section {
     min-width: 16rem;
