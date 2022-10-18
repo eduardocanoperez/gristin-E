@@ -1,0 +1,45 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 20rem;
+    min-width: 32rem;
+    font-family: 'Great Vibes', cursive;
+}
+.nav-left-section {
+    min-width: 16rem;
+    place-self: center;
+}
+section h1 {
+    font-size: 6rem;
+    color: darkgoldenrod;
+    text-align: center;
+}
+section p {
+    font-size: 3.6rem;
+    text-align: center;
+    color: darkgoldenrod;
+}
+
+/* main section */
+.cards-container {
+    grid-template-columns: repeat(auto-fill, 23rem);
+}
+.product-card {
+    width: 23rem;
+}
+.product-card img {
+    width: 23rem;
+    height: 23rem;
+}
+.product-info p {
+    font-size: 1.7rem;
+}
+
+/* footer section */
+footer .left ul {
+    font-size: 2rem;
+    line-height: 2.8rem;
+}
+.right img {
+    height: 8rem;
+}
