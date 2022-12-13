@@ -27,7 +27,7 @@ section h1 {
     color: darkgoldenrod;
     text-align: center;
 }
-section p {
+.nav-left-section p {
     font-size: 2rem;
     margin-top: -1rem;
     text-align: center;
@@ -133,12 +133,11 @@ section p {
 
 /*main description*/
 
-.main-description {
-    font-family: 'Great Vibes', cursive;
-    color: darkgoldenrod;
+.main-description p {
+    color: black;
     margin: 2rem;
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 100;
 }
 
 /**/
@@ -186,8 +185,8 @@ footer section {
     align-items: center;
 }
 footer .left ul {
-    font-size: 1.4rem;
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 600;
     line-height: 1.8rem;
     list-style: none;
 }
@@ -196,14 +195,13 @@ footer .left ul {
 }
 .left a {
     font-family: 'Great Vibes', cursive;
-    color: darkgoldenrod;
     text-decoration: none;
     color: black
 }
 .right img {
     display: inline-block;
-    width: 13rem;
-    height: 5rem;
+    width: 15rem;
+    height: 6rem;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
