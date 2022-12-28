@@ -74,7 +74,8 @@ section h1 {
     width: 100%;
     height: auto;
     left: 0;
-    border-radius: .6rem .6rem;
+    border: 0.1rem solid darkgoldenrod;
+    border-radius: .6rem;
     background-color: #90d5cf;
 }
 .mobile-menu ul {
@@ -101,7 +102,8 @@ section h1 {
     width: 100%;
     height: auto;
     left: 0;
-    border-radius: .6rem .6rem;
+    border-radius: .6rem;
+    border: 0.1rem solid darkgoldenrod;
     background-color: #90d5cf;
     display: grid;
     grid-template-columns: auto 1fr auto auto;
@@ -110,7 +112,7 @@ section h1 {
     align-items: center;
 }
 .shopingcar-menu figure {
-    margin: 0 0 0 2.4rem;
+    margin: 0.4rem 0 0 2.4rem;
 }
 .shopingcar-menu p {
     font: menu;
@@ -186,7 +188,24 @@ section h1 {
     grid-column: 3 / 4;
     grid-row: 3;
 }
-
+.main-category_shoes {
+    display: inline-block;
+    width: -webkit-fill-available;
+    height: auto;
+    border-radius: 2rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-category_sportshoes {
+    display: inline-block;
+    width: -webkit-fill-available;
+    height: auto;
+    border-radius: 2rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 /*main description*/
 
 .main-description p {

@@ -9,6 +9,21 @@ header {
     min-width: 16rem;
     place-self: center;
 }
+.mobile-menu {
+    position: absolute;
+    top: 12rem;
+    width: auto;
+    height: auto;
+    left: auto;
+    border-radius: .6rem .6rem;
+    background-color: #90d5cf;
+}
+.shopingcar-menu {
+    top: 12rem;
+    width: auto;
+    height: auto;
+    left: auto;
+}
 section h1 {
     font-size: 6rem;
     color: darkgoldenrod;

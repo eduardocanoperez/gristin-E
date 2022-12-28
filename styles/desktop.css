@@ -5,6 +5,12 @@ body {
 header {
     margin: 5rem 0;
 }
+.mobile-menu {
+    top: 17rem;
+}
+.shopingcar-menu {
+    top: 17rem;
+}
 section h1 {
     font-size: 9rem;
     color: darkgoldenrod;
