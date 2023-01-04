@@ -190,8 +190,7 @@ section h1 {
 }
 .main-category_shoes {
     display: inline-block;
-    width: -webkit-fill-available;
-    height: auto;
+    width: 100%;
     border-radius: 2rem;
     background-size: cover;
     background-position: center;
@@ -199,8 +198,15 @@ section h1 {
 }
 .main-category_sportshoes {
     display: inline-block;
-    width: -webkit-fill-available;
-    height: auto;
+    width: 100%;
+    border-radius: 2rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-category__phones {
+    display: inline-block;
+    width: 100%;
     border-radius: 2rem;
     background-size: cover;
     background-position: center;
