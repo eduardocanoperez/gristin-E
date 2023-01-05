@@ -255,10 +255,10 @@ section h1 {
     margin: 2rem;
     list-style: none;
 }
-.main-info ul li {
+/* .main-info ul li {
     background-color: #efefef;
     border-radius: 1rem;
-}
+} */
 .main-info-promo {
     grid-column: 1 / 2;
     grid-row: 1;
@@ -275,7 +275,30 @@ section h1 {
     grid-column: 1 / 3;
     grid-row: 3;
 }
-
+.main-info_promo {
+    display: inline-block;
+    width: 100%;
+    border-radius: 2rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-info-product-pictures {
+    display: inline-block;
+    width: 100%;
+    border-radius: 2rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-info-promo-2 {
+    display: inline-block;
+    width: 100%;
+    border-radius: 2rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 /*footer*/
 
 footer {
