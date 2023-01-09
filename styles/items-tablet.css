@@ -9,12 +9,27 @@ header {
     min-width: 16rem;
     place-self: center;
 }
-section h1 {
+.mobile-menu {
+    position: absolute;
+    top: 12rem;
+    width: auto;
+    height: auto;
+    left: auto;
+    background-color: #90d5cf;
+}
+.shoping-car_display {
+    top: 12rem;
+    width: auto;
+    height: auto;
+    left: 64%;
+}
+section h1 a{
     font-size: 6rem;
+    margin-left: 0;
     color: darkgoldenrod;
     text-align: center;
 }
-section p {
+.nav-left-section p {
     font-size: 3.6rem;
     text-align: center;
     color: darkgoldenrod;

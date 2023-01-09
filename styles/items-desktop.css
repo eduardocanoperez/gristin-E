@@ -1,3 +1,23 @@
+body {
+    max-width: 102.4rem;
+    margin: 0 auto;
+}
+header {
+    margin: 5rem 0;
+}
+section h1 {
+    color: darkgoldenrod;
+    text-align: center;
+    margin-top: 5rem;
+}
+section h1 a {
+    font-size: 9rem;
+}
+.nav-left-section p {
+    font-size: 4.6rem;
+    text-align: center;
+    margin-top: -3rem;
+}
 .cards-container {
     max-width: 150.4rem;
 }
