@@ -5,6 +5,12 @@ body {
 header {
     margin: 5rem 0;
 }
+.mobile-menu {
+    top: 17rem;
+}
+.shoping-car_display {
+    top: 17rem;
+}
 section h1 {
     color: darkgoldenrod;
     text-align: center;
@@ -20,4 +26,12 @@ section h1 a {
 }
 .cards-container {
     max-width: 150.4rem;
+}
+footer .left ul {
+    font-size: 3.5rem;
+    line-height: 5rem;
+}
+.right img {
+    height: 11rem;
+    width: 35rem;
 }
